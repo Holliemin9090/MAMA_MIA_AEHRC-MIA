@@ -1,0 +1,12 @@
+acvl_utils==0.2.5
+dynamic_network_architectures==0.3.1
+et_xmlfile==2.0.0
+efficientnet_pytorch==0.7.1
+git+https://github.com/MIC-DKFZ/nnUNet.git@4f2ffabe751977ee66348560c8e99102e8553195#egg=nnunet
+monai @ git+https://github.com/Holliemin9090/MONAI.git@9a75a7aceef39e529dc5c29fcbd078a11dd91583
+CoTr @ git+https://github.com/Holliemin9090/CoTr.git@17e234d2ba9aa219042139783af271cf5d151f03#subdirectory=CoTr_package
+surface-distance @ git+https://github.com/deepmind/surface-distance.git@1f805cea446805e559badc80dd27f34175e4173d
+git+https://github.com/EPVS-Challenge-AEHRC/MedNeXt-mod.git@d3e5991bad14b4659c7d4f31c9735536f075432a#egg=mednextv1
+natsort==8.4.0
+openpyxl==3.1.5
+
