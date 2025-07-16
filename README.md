@@ -11,7 +11,7 @@ This repository contains our code and documentation for the **MAMA-MIA Challenge
   2. Prediction of pathologic complete response (pCR) to neoadjuvant chemotherapy  
 - **Data:**  
   - **Training set:** 1506 cases from a large-scale multicenter breast cancer DCE-MRI benchmark dataset  
-  - **Validation set:** 574 cases from three European centers  
+  - **Test set:** 574 cases from three European centers  
 - **Evaluation Metrics:**  
   - **Segmentation:** Dice coefficient, normalized Hausdorff Distance, and fairness score  
   - **Classification:** Balanced accuracy and fairness score  
@@ -60,14 +60,14 @@ A Random Forest classifier was trained using radiomic and kinetic features extra
    `pcr_classification_wt_radiomics/Extract_radiomics.py`
 
 #### 🤖 Classification
-- Train and evaluate a Random Forest classifier:  
+- Train a Random Forest classifier:  
   `pcr_classification_wt_radiomics/pcr_classification_radiomics.py`
 
 ---
 
 ## 🚀 Inference & Submission
 
-All inference scripts used for submission are located in the `sample_code_submission` directory.
+Inference scripts used for submission are located in the `sample_code_submission` directory.
 
 ---
 
